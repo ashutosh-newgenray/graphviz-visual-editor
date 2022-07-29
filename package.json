@@ -1,0 +1,41 @@
+{
+  "name": "graphviz-visual-editor",
+  "version": "0.6.5",
+  "description": "A web application for interactive visual editing of Graphviz graphs described in the DOT language",
+  "keywords": [
+    "Graphviz",
+    "web-application "
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magjac/graphviz-visual-editor.git"
+  },
+  "dependencies": {
+    "d3-graphviz": "4.1.0",
+    "d3-selection": "^2.0.0",
+    "d3-transition": "^2.0.0",
+    "d3-zoom": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts --max_old_space_size=4096 start",
+    "build": "react-scripts --max_old_space_size=4096 build --mode=production"
+  },
+  "homepage": ".",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
